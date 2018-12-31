@@ -1,19 +1,23 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
+  <!-- 用户信息 -->
+  <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view class='ding-wrap'>
+  <view class='empty'></view>
+  <view class='header'>
+    <image src="{{userInfo.avatarUrl}}" class='dingLogo' mode="cover"></image>
+    <view class='tit'>北京麦当劳广安路</view>
+    <view class='tip'>营业时间：09:00-23:00</view>
+    <view class='tip'>公告：9月28日-10月30日，麦辣鸡翅3只仅售10元，9月2....</view>
+    <text class='tag-symbol'>满赠</text>
+    <text class='tag-symbol'>积分兑换</text>
+  </view> 
   </view>
 </view>
-<view class="btn-area">
-  <view class="body-view">
-    <text>{{text}}</text> <button bindtap="add">add line</button>
-    <button bindtap="remove">remove line</button>
-  </view>
-</view>
+

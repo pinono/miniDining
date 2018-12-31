@@ -16,6 +16,44 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+.ding-wrap  .empty{
+  width:750rpx;
+  height:120rpx;
+  background:#FF4500 100%;
 }
+.ding-wrap .header{
+  position: relative;
+  width:702rpx;
+  height: 220rpx;
+  background:#fff;
+  margin:0 auto;
+  padding:20rpx;
+  box-sizing:border-box;
+  top:-70rpx;
+  border-radius:8rpx;
+}
+.ding-wrap .header .dingLogo{
+  width:120rpx;
+  height:120rpx;
+  position:absolute;
+  right:20rpx;
+  top:-30rpx;
+  border-radius:6rpx;
+}
+.ding-wrap .header .tit{
+  font-size: 40rpx;
+  color: #37300D;
+  letter-spacing: -1.39rpx;
+}
+
+.ding-wrap .tip{
+  font-size: 26rpx;
+  color: #8F8A81;
+  letter-spacing: -0.9rpx;
+}
+
+
+
+
+
+

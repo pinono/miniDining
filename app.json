@@ -2,12 +2,24 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/welcome"
+    "pages/welcome/welcome"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "其他"
+      }
+    ]
   }
 }
