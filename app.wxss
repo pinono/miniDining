@@ -18,3 +18,51 @@
   margin-right:10rpx;
   border-radius:2rpx;
 }
+/* 箭头 */
+.arrow-donw {
+  display: inline-block;
+  width:30rpx;height:16rpx;
+  float: right;
+  margin-top:25rpx;
+}
+.arrow-up {
+  display: block;
+  width:30rpx;height:20rpx;
+  margin:0 auto;
+}
+/* 优惠券 */
+.cashList .item{
+  box-sizing: border-box;
+  width:662rpx;height: 140rpx;
+  border: 1rpx solid #FF4500;
+  margin-top:20rpx;
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+.cashList .item .dtL{
+  width:140rpx;height:140rpx;
+  font-size:24rpx;
+  border-left:6rpx solid #FF4500;
+  border-right:1rpx dotted #FF4500;
+  text-align: center;
+}
+.cashList .item .moneyWrap{
+  margin-top:21rpx;
+}
+.cashList .item .dtL .money{
+  font-size: 40rpx;
+  color: #FF4500;
+}
+.cashList .item .dtR{
+  margin:0 0 0 21rpx;
+}
+.cashList .item .dtR .moneyWrap{
+  font-size: 34rpx;
+  color: #37300D;
+  margin-bottom:8rpx;
+}
+.cashList .item .tip3{
+  font-size: 22rpx;
+  color: #8F8A81;
+}

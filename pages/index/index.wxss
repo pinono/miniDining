@@ -24,7 +24,7 @@
 .ding-wrap .header{
   position: relative;
   width:702rpx;
-  height: 220rpx;
+  /* height: 220rpx; */
   background:#fff;
   margin:0 auto;
   padding:20rpx;
@@ -43,7 +43,7 @@
 .ding-wrap .header .tit{
   font-size: 40rpx;
   color: #37300D;
-  letter-spacing: -1.39rpx;
+  letter-spacing: -0.9rpx;
 }
 
 .ding-wrap .tip{
@@ -51,9 +51,59 @@
   color: #8F8A81;
   letter-spacing: -0.9rpx;
 }
-
-
-
-
+.ding-wrap .moreInfo .subTit{
+  font-size: 36rpx;
+  color: #333333;
+  margin-top:40rpx;
+}
+.ding-wrap .moreInfo .tip2{
+  font-size: 26rpx;
+  color: #8F8A81;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 52rpx;
+}
+.ding-wrap .moreInfo .tip2 text{
+  margin-right:30rpx;
+}
+.ding-wrap .arrow-up{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.ding-wrap .oneSuitWrap{
+  display: flex;
+  height:220rpx;
+  overflow: scroll;
+}
+.ding-wrap .oneSuit{
+  display: inline-table;
+  width:660rpx;height:220rpx;
+  box-sizing: border-box;
+  padding:20rpx;
+  background:red;
+}
+.ver {
+  height: 300rpx;
+}
+.hor {
+  display: flex;
+  flex-direction: row;
+  width: 660rpx;
+}
+.hor .item{
+  width: 660rpx;
+  height:220rpx;
+  padding:20rpx;
+  background: #FFFFFF;
+  box-shadow: 0 5px 20px 0 rgba(51,24,14,0.08);
+  border-radius: 4px;
+}
+.hor .item image{
+  width:288rpx;height:180rpx;
+  margin-right:20rpx;
+}
 
 

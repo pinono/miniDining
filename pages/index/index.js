@@ -7,12 +7,25 @@ Page({
     motto: '123321',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    dingInfo :false,   //店铺详细信息
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  // 头部店铺详情-下拉
+  dingDown : function () {
+    this.setData({
+      dingInfo: true
+    })
+  },
+  // 头部店铺详情-收起
+  dingUp : function () {
+    this.setData({
+      dingInfo: false
     })
   },
   onLoad: function () {

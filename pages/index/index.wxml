@@ -9,15 +9,104 @@
     </block>
   </view> -->
   <view class='ding-wrap'>
-  <view class='empty'></view>
-  <view class='header'>
-    <image src="{{userInfo.avatarUrl}}" class='dingLogo' mode="cover"></image>
-    <view class='tit'>北京麦当劳广安路</view>
-    <view class='tip'>营业时间：09:00-23:00</view>
-    <view class='tip'>公告：9月28日-10月30日，麦辣鸡翅3只仅售10元，9月2....</view>
-    <text class='tag-symbol'>满赠</text>
-    <text class='tag-symbol'>积分兑换</text>
-  </view> 
+    <view class='empty'></view>
+    <!-- 头部 -->
+    <view class='header'>
+      <image src="{{userInfo.avatarUrl}}" class='dingLogo' mode="cover"></image>
+      <view class='tit'>北京麦当劳广安路</view>
+      <view class='tip'>营业时间：09:00-23:00</view>
+      <view class='tip'>公告：9月28日-10月30日，麦辣鸡翅3只仅售10元，9月2....</view>
+      <text class='tag-symbol'>满赠</text>
+      <text class='tag-symbol'>积分兑换</text>
+      <image class='arrow-donw' wx:if="{{!dingInfo}}" bindtap="dingDown" src='../img/arrow-down.png'></image>
+      <!-- 餐厅详情下拉框 -->
+      <view class='moreInfo' wx:if="{{dingInfo}}">
+        <view class='subTit'>公告</view>
+        <view class='tip'>9月28日-10月30日，麦辣鸡翅3只仅售10元，9月2麦辣鸡翅3只仅售10元。</view>
+        <!-- 优惠券 -->
+        <view class='subTit'>优惠</view>
+        <view class='cashList shop'>
+          <view class='item'>
+            <view class='dtL'>
+              <view class='moneyWrap'><text class='money'>30</text>元</view>
+              <view class='tip3'>满200可用</view>
+            </view>
+            <view class='dtR'>
+              <view class='moneyWrap'>订单满200赠30代金券</view>
+              <view class='tip3'>有效期<text>3</text>天  仅限本店使用</view>
+            </view>
+          </view>
+          <view class='item'>
+            <view class='dtL'>
+              <view class='moneyWrap'><text class='money'>30</text>元</view>
+              <view class='tip3'>满200可用</view>
+            </view>
+            <view class='dtR'>
+              <view class='moneyWrap'>订单满200赠30代金券</view>
+              <view class='tip3'>有效期<text>3</text>天  仅限本店使用</view>
+            </view>
+          </view>
+        </view>
+        <view class='subTit'>店铺</view>
+        <view class='tip2'><text>月销单量</text>6千+</view>
+        <view class='tip2'><text>月销单量</text>6千+</view>
+        <view class='tip2'><text>月销单量</text>09:00-23:00</view>
+        <view class='tip2'><text>月销单量</text>北京市西城区马连道路11号</view>
+        <view class='tip2'><text>月销单量</text>010-1234567</view>
+      </view>
+      <image class='arrow-up' wx:if="{{dingInfo}}" bindtap="dingUp" src='../img/arrow-up.png'></image>
+
+    </view> 
+    <!-- 超值套餐 -->
+      <view class="section__title">超值套餐</view>
+      
+  <scroll-view scroll-x>
+  <view class='hor'>
+    <view class='item'>
+      <image src='../img/pic.png'></image>
+      <view>
+        <h5>海陆空汉堡包</h5>
+        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+      </view>
+    </view>
+    <view>2222</view>
+    <view>3333</view>
+    <view>44444</view>
+    <view>55555</view>
+    <view>66666</view>
+    <view>11111</view>
+    <view>11111</view>
+    <view>11111</view>
+    <view>11111</view>
+    <view>11111</view>
+    <view>11111</view>
+    <view>11111</view>
   </view>
+</scroll-view>
+  <scroll-view scroll-x class='wrap'>
+    <view class='item'>
+      <image src='../img/pic.png'></image>
+      <view style='width:300rpx;display:inline-block;'>
+        <h5>海陆空汉堡包</h5>
+        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='../img/pic.png'></image>
+      <view style='width:300rpx;display:inline-block;'>
+        <h5>海陆空汉堡包</h5>
+        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='../img/pic.png'></image>
+      <view style='width:300rpx;display:inline-block;'>
+        <h5>海陆空汉堡包</h5>
+        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+      </view>
+    </view>
+  </scroll-view>
+   
+</view>
 </view>
 
