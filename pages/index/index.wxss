@@ -92,18 +92,72 @@
   display: flex;
   flex-direction: row;
   width: 660rpx;
+  height: 220rpx;
+}
+.hor .item:first-of-type{
+  margin-left:24rpx;
 }
 .hor .item{
+  position: relative;
   width: 660rpx;
   height:220rpx;
   padding:20rpx;
   background: #FFFFFF;
   box-shadow: 0 5px 20px 0 rgba(51,24,14,0.08);
   border-radius: 4px;
+  padding-right:350rpx;
+  margin-right:20rpx;
 }
 .hor .item image{
   width:288rpx;height:180rpx;
   margin-right:20rpx;
 }
+.hor .item .det{
+  position: absolute;
+  right: 0;
+  top:10rpx;
+  width:340rpx;
+  margin-right:15rpx;
+}
 
+.hor .item .det h5{
+  font-size: 34rpx;
+  color: #37300D;
+  margin-bottom:6rpx;
+}
+.hor .item .det .desc{
+  font-size:22rpx;
+  color: #8F8A81;
+  height: 60rpx;
+}
+.hor .item .det .price-wrap{
+  margin-top:20rpx;
+}
+.hor .item .det .price{
+  font-size: 34rpx;
+  color: #FF4500;
+}
+
+.hor .item .det .num{
+  font-size: 28rpx;
+  color: #000033;
+  
+}
+
+.hor .item .det .oldPrice{
+  font-size: 28rpx;
+  color: #8F8A81;
+  text-decoration: line-through;
+}
+
+.hor .item .det .addBtn{
+  display: inline-block;
+  width:44rpx;height:44rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color:#E6AC00;
+  border: 3rpx solid #E6AC00;
+  border-radius: 4px;
+  float: right;
+}
 

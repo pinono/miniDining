@@ -64,48 +64,34 @@
   <view class='hor'>
     <view class='item'>
       <image src='../img/pic.png'></image>
-      <view>
+      <view class='det'>
         <h5>海陆空汉堡包</h5>
-        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+        <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+        <view class='price-wrap'>
+          <text class='price'>￥308</text>
+          <text class='num'>/个</text>
+          <text class='oldPrice'>￥415</text>
+          <text class='addBtn'>+</text>
+        </view>
       </view>
     </view>
-    <view>2222</view>
-    <view>3333</view>
-    <view>44444</view>
-    <view>55555</view>
-    <view>66666</view>
-    <view>11111</view>
-    <view>11111</view>
-    <view>11111</view>
-    <view>11111</view>
-    <view>11111</view>
-    <view>11111</view>
-    <view>11111</view>
+    <view class='item'>
+      <image src='../img/pic.png'></image>
+      <view class='det'>
+        <h5>海陆空汉堡包</h5>
+        <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='../img/pic.png'></image>
+      <view class='det'>
+        <h5>海陆空汉堡包</h5>
+        <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+      </view>
+    </view>
   </view>
 </scroll-view>
-  <scroll-view scroll-x class='wrap'>
-    <view class='item'>
-      <image src='../img/pic.png'></image>
-      <view style='width:300rpx;display:inline-block;'>
-        <h5>海陆空汉堡包</h5>
-        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
-      </view>
-    </view>
-    <view class='item'>
-      <image src='../img/pic.png'></image>
-      <view style='width:300rpx;display:inline-block;'>
-        <h5>海陆空汉堡包</h5>
-        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
-      </view>
-    </view>
-    <view class='item'>
-      <image src='../img/pic.png'></image>
-      <view style='width:300rpx;display:inline-block;'>
-        <h5>海陆空汉堡包</h5>
-        <view>不素之霸双层牛堡1份+双层深海鳕鱼</view>
-      </view>
-    </view>
-  </scroll-view>
+  
    
 </view>
 </view>
