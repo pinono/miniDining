@@ -1,0 +1,51 @@
+<!--pages/order/order.wxml-->
+<view class='order-wrap'>
+  <view class='beSure'>
+    <view class='tit'>确认菜品</view>
+    <view class='item'>
+      <image  src='../img/pic.png'></image>
+      <view class='rightPart'>
+        <view class='name'>
+          经典麦辣鸡腿汉堡
+          <text class='num'>X1</text>
+        </view>
+        <view class='price-wrap'>
+          <text class='price'>￥32</text>/个
+          <text class='oldPrice'>￥40</text>
+        </view>
+      </view>     
+    </view>
+
+    <view class='item'>
+      <image  src='../img/pic.png'></image>
+      <view class='rightPart'>
+        <view class='name'>
+          经典麦辣鸡腿汉堡
+          <text class='num'>X1</text>
+        </view>
+        <view class='price-wrap'>
+          <text class='price'>￥32</text>/个
+          <text class='oldPrice'>￥40</text>
+        </view>
+      </view>     
+    </view>
+
+    <view class='item'>
+      <image  src='../img/pic.png'></image>
+      <view class='rightPart'>
+        <view class='name'>
+          经典麦辣鸡腿汉堡
+          <text class='num'>X1</text>
+        </view>
+        <view class='price-wrap'>
+          <text class='price'>￥32</text>/个
+          <text class='oldPrice'>￥40</text>
+        </view>
+      </view>     
+    </view>
+    <view class='moneyTotal'>
+      <text>金额：</text>
+      <text class='money'>￥64.00</text>
+    </view>
+  </view>
+</view>

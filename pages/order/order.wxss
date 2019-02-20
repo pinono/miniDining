@@ -1,0 +1,75 @@
+/* pages/order/order.wxss */
+.order-wrap{
+  padding:24rpx;
+  background: #FAF8F5;
+}
+
+.beSure{
+  padding:20rpx;
+  background:#fff;
+
+}
+.beSure .item{
+  padding-bottom:10rpx;
+  padding-top:10rpx;
+  border-bottom:1rpx solid #E6E4E1;
+}
+
+.beSure .tit{
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+  height: 50rpx;line-height: 50rpx;
+  margin-bottom:15rpx;
+}
+.beSure image{
+  width:150rpx;height:94rpx;
+}
+.beSure .rightPart{
+  display: inline-block;
+  width:77%;
+}
+.beSure .name{
+  display: inline-block;
+  width:100%;
+  font-size: 28rpx;
+  color: #333333;
+  vertical-align: top;
+}
+.beSure .name .num{
+  float: right;
+}
+.beSure .price-wrap{
+  display: inline-block;
+  width:77%;
+  vertical-align: top;
+  font-size: 24rpx;
+  color: #8F8A81;
+}
+
+.beSure .price-wrap .price{
+  font-size: 24rpx;
+  color: #FF4500;
+}
+.beSure .moneyTotal{
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #333333;
+  text-align: right;
+}
+.beSure .money{
+  font-size:28rpx;
+  color:#FF4500;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -28,6 +28,12 @@ Page({
       dingInfo: false
     })
   },
+  // 去下单
+  goPay : function () {
+    wx.navigateTo({
+      url: '../order/order'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

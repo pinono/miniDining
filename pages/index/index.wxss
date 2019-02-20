@@ -88,6 +88,13 @@
 .ver {
   height: 300rpx;
 }
+.ding-wrap .sectionTitle{
+  font-size: 36rpx;
+  color: #37300D;
+  padding-left:24rpx;
+  margin-bottom:10rpx;
+  font-weight:bold;
+}
 .hor {
   display: flex;
   flex-direction: row;
@@ -120,7 +127,7 @@
   margin-right:15rpx;
 }
 
-.hor .item .det h5{
+.hor .item .det tit{
   font-size: 34rpx;
   color: #37300D;
   margin-bottom:6rpx;
@@ -160,4 +167,169 @@
   border-radius: 4px;
   float: right;
 }
+
+.hor.shopRec {
+  height: 321rpx;
+}
+.hor.shopRec .item{
+  width:320rpx;
+  padding-right:0;
+  height: 320rpx;
+}
+.hor.shopRec .item .det{
+  width: 320rpx;
+  position: static;
+  margin-right:0;
+}
+.hor.shopRec .item .det .tit{
+  font-size: 30rpx;
+  color: #37300D;
+}
+
+.list-wrap{
+  width: 660rpx;
+  padding:0 24rpx;
+}
+
+.list-wrap .item{
+  position: relative;
+  width: 660rpx;
+  height:220rpx;
+  padding:20rpx;
+  background: #FFFFFF;
+  box-shadow: 0 5rpx 20rpx 0 rgba(51,24,14,0.08);
+  border-radius: 4rpx;
+  margin-bottom:12rpx;
+}
+.list-wrap .item image{
+  width:288rpx;height:180rpx;
+  margin-right:20rpx;
+}
+.list-wrap .item .det{
+  position: absolute;
+  right: 0;
+  top:10rpx;
+  width:340rpx;
+  margin-right:15rpx;
+}
+
+.list-wrap .item .det tit{
+  font-size: 34rpx;
+  color: #37300D;
+  margin-bottom:6rpx;
+}
+.list-wrap .item .det .desc{
+  font-size:22rpx;
+  color: #8F8A81;
+  height: 60rpx;
+}
+.list-wrap .item .det .price-wrap{
+  margin-top:20rpx;
+}
+.list-wrap .item .det .price{
+  font-size: 34rpx;
+  color: #FF4500;
+}
+
+.list-wrap .item .det .num{
+  font-size: 28rpx;
+  color: #000033;
+  
+}
+
+.list-wrap .item .det .oldPrice{
+  font-size: 28rpx;
+  color: #8F8A81;
+  text-decoration: line-through;
+}
+
+.list-wrap .item .det .addBtn{
+  display: inline-block;
+  width:44rpx;height:44rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color:#E6AC00;
+  border: 3rpx solid #E6AC00;
+  border-radius: 4px;
+  float: right;
+}
+
+.shoppingCart{
+  /* position: relative; */
+  position: fixed;
+  bottom:100rpx;
+  margin:0 24rpx;
+  width:702rpx;
+  height:88rpx;
+  background: #262109;
+  box-shadow: 0 5rpx 10px 0 rgba(0,0,0,0.20);
+  border-radius: 100rpx;
+  color:#fff;
+}
+
+.shoppingCart .logo-wrap{
+  float:left;
+  margin:15rpx 18rpx 0 40rpx;
+}
+.shoppingCart .logo{
+  display: inline-block;
+  width: 58rpx;
+  height:55rpx;
+}
+.shoppingCart view{
+  display: inline-block;
+}
+
+.shoppingCart .price{
+  font-size:34rpx;
+  margin-right: 10rpx;
+}
+.shoppingCart .oldPrice{
+  font-size:24rpx;
+  text-decoration: line-through;
+  opacity: .5;
+}
+.shoppingCart .memPrice{
+  display: block;
+  font-size:24rpx;
+  opacity: .5;
+  padding-left:10rpx;
+}
+
+.shoppingCart .pay{
+  position:absolute;
+  right:0;top:0;
+  width:168rpx;height:88rpx;
+  background: #FF4500;
+  box-shadow: 0 5px 10rpx 0 rgba(0,0,0,0.20);
+  border-radius: 0 56rpx 56rpx 0;
+  line-height: 88rpx;text-align: center;
+  font-size:34rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

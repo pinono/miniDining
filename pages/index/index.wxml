@@ -58,41 +58,127 @@
 
     </view> 
     <!-- 超值套餐 -->
-      <view class="section__title">超值套餐</view>
+      <view class="sectionTitle">超值套餐</view>
       
-  <scroll-view scroll-x>
-  <view class='hor'>
-    <view class='item'>
-      <image src='../img/pic.png'></image>
-      <view class='det'>
-        <h5>海陆空汉堡包</h5>
-        <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
-        <view class='price-wrap'>
-          <text class='price'>￥308</text>
-          <text class='num'>/个</text>
-          <text class='oldPrice'>￥415</text>
-          <text class='addBtn'>+</text>
+      <scroll-view scroll-x>
+        <view class='hor'>
+          <view class='item'>
+            <image src='../img/pic.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+              <view class='price-wrap'>
+                <text class='price'>￥308</text>
+                <text class='num'>/个</text>
+                <text class='oldPrice'>￥415</text>
+                <text class='addBtn'>+</text>
+              </view>
+            </view>
+          </view>
+          <view class='item'>
+            <image src='../img/pic.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+            </view>
+          </view>
+          <view class='item'>
+            <image src='../img/pic.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+            </view>
+          </view>
         </view>
-      </view>
-    </view>
-    <view class='item'>
-      <image src='../img/pic.png'></image>
-      <view class='det'>
-        <h5>海陆空汉堡包</h5>
-        <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
-      </view>
-    </view>
-    <view class='item'>
-      <image src='../img/pic.png'></image>
-      <view class='det'>
-        <h5>海陆空汉堡包</h5>
-        <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
-      </view>
-    </view>
-  </view>
-</scroll-view>
-  
-   
+    </scroll-view>
+    <!-- 店铺推荐 -->
+    <view class="sectionTitle">店铺推荐</view>
+    <scroll-view scroll-x>
+        <view class='hor shopRec'>
+          <view class='item'>
+            <image src='../img/pic2.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='price-wrap'>
+                <text class='price'>￥308</text>
+                <text class='num'>/个</text>
+                <text class='oldPrice'>￥415</text>
+                <text class='addBtn'>+</text>
+              </view>
+            </view>
+          </view>
+          <view class='item'>
+            <image src='../img/pic2.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='price-wrap'>
+                <text class='price'>￥308</text>
+                <text class='num'>/个</text>
+                <text class='oldPrice'>￥415</text>
+                <text class='addBtn'>+</text>
+              </view>
+            </view>
+          </view>
+          <view class='item'>
+            <image src='../img/pic2.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='price-wrap'>
+                <text class='price'>￥308</text>
+                <text class='num'>/个</text>
+                <text class='oldPrice'>￥415</text>
+                <text class='addBtn'>+</text>
+              </view>
+            </view>
+          </view>
+        </view>
+    </scroll-view>
+    <!-- list -->
+    <view class='list-wrap'>
+          <view class='item'>
+            <image src='../img/pic.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+              <view class='price-wrap'>
+                <text class='price'>￥308</text>
+                <text class='num'>/个</text>
+                <text class='oldPrice'>￥415</text>
+                <text class='addBtn'>+</text>
+              </view>
+            </view>
+          </view>
+          <view class='item'>
+            <image src='../img/pic.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+            </view>
+          </view>
+          <view class='item'>
+            <image src='../img/pic.png'></image>
+            <view class='det'>
+              <view class='tit'>海陆空汉堡包</view>
+              <view class='desc'>不素之霸双层牛堡1份+双层深海鳕鱼</view>
+            </view>
+          </view>
+        </view>
+        <!-- 购物车 -->
+        <view class='shoppingCart'>
+          <view class='logo-wrap'>
+            <view class='num'></view>
+            <image class='logo' src='../img/shoppingCart.png'></image>
+          </view>
+          <view class='price-wrap'>
+            <view class='price'>￥64.00</view>
+            <view class='oldPrice'>￥72.00</view>
+          </view>
+          <view class='memPrice'>
+            会员价：￥0.00
+          </view>
+          <!-- <view class='pay'>未选择</view> -->
+          <view class='pay' bindtap="goPay">去下单</view>
+        </view>
 </view>
 </view>
 

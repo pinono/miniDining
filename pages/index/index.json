@@ -1,6 +1,6 @@
 {
   "navigationBarBackgroundColor": "#FF4500",
-  "navigationBarTextStyle": "#fff",
+  "navigationBarTextStyle": "white",
   "navigationBarTitleText": "1号桌",
   "backgroundColor": "#eeeeee",
   "backgroundTextStyle": "light"
